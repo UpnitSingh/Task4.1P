@@ -1,0 +1,38 @@
+.article-card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+  }
+  
+  .article-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .article-card .ui.image {
+    border-radius: 10px 10px 0 0;
+  }
+  
+  .article-card .header {
+    font-size: 1.5em;
+    color: #333;
+  }
+  
+  .article-card .meta {
+    color: #666;
+  }
+  
+  .article-card .description {
+    color: #555;
+  }
+  
+  .article-card .extra {
+    background-color: #f9f9f9;
+    border-top: 1px solid #ddd;
+    padding: 10px;
+  }
+  
+  .article-card .extra .icon {
+    color: #f39c12;
+  }
+  
